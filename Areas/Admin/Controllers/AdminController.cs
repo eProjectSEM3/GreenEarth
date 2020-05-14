@@ -8,7 +8,7 @@ namespace GreenEarth.Areas.Admin.Controllers
 {
     public class AdminController : Controller
     {
-        // GET: Admin/Admin
+        // GET: Admin
         public ActionResult Index()
         {
             return View();
