@@ -16,8 +16,8 @@ namespace GreenEarth.Areas.Admin
         {
             context.MapRoute(
                 "Admin_default",
-                "{controller}/{action}/{id}",
-                new { action = "Index", Controller = "Home", id = UrlParameter.Optional }
+                "Admin/{action}/{id}",
+                new { action = "Index", Controller = "Admin", id = UrlParameter.Optional }
             );
         }
     }
